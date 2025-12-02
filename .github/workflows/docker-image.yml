@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t bumbum29/copyed-chatbot-image:latest .
+        run: docker build -t jejmb248/copyed-chatbot-image:latest .
 
       - name: Push Docker image
-        run: docker push bumbum29/copyed-chatbot-image:latest
+        run: docker push jejmb248/copyed-chatbot-image:latest
